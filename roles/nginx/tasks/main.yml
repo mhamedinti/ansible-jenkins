@@ -1,5 +1,5 @@
 - name: install nginx
-  apt: 
+  Yum: 
     name:
       - nginx
     state: present
