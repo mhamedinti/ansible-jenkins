@@ -1,7 +1,9 @@
 
 - name: install nginx
   hosts: all
+  remote_users: jenkins
   become: yes
+  yum: 
   roles:
     - nginx
 
